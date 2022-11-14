@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html body{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.perso p{
+    line-height: 1.5rem;
+}
+
+.medium-box{
+    display: flex;
+    width: 66.66%;
+    flex-wrap: wrap;
+}
+
+.contact-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+.contact-me a{
+    text-decoration: none;
+    color:white;
+    border: 2px solid white;
+    padding: 12px 18px;
+    font-size: 14px;
+    transition-duration: 0.6s;
+    font-weight: 800;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.infos{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: rgba(203, 203, 203, 0.62);
+}
+.left-container{
+    width: 60%;
+    display: flex;
+    background: #da8901;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.right-container{
+    position: relative;
+    width: 40%;
+    background: #156188;
+    object-fit: cover; /* */
+}
+.right-container img{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+    flex-wrap: wrap;
+}
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fas{
+    font-size: 2.5rem;
+    color: white;
+}
+.little-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 4.5rem 4rem;
+    width: 33.33%;
+}
+
+/********* / */
+.perso{
+    background: rgb(53, 188, 122);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.little-box:nth-child(1){
+    background: #1E8BC4;
+}
+.little-box:nth-child(2){
+    background: #f82525;
+}
+.little-box:nth-child(3){
+    background: rgb(53, 188, 122);
+}
+.little-box:nth-child(4){
+    background: #F86925;
+}
+.little-box:nth-child(5){
+    background: #1E8BC4;
+}
+.little-box:nth-child(6){
+    background: #F86925;
+}
+/********* / */
+
+@media only screen and (max-width:720px) {
+    .little-box{
+        width: 50%;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+}
